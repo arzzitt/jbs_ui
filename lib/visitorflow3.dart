@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:jbs_ui/contractor2.dart';
 import 'package:jbs_ui/visitorflow5.dart';
 
 class Visitorflow3 extends StatelessWidget {
@@ -110,10 +109,8 @@ class Visitorflow3 extends StatelessWidget {
                           top: 40, bottom: 40, left: 15, right: 15)),
                       backgroundColor: MaterialStateProperty.all(Colors.white)),
                   onPressed: () {
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (context) {
-                      return contractor2();
-                    }));
+
+
                   },
                   child: Text(
                     'Contractor',
